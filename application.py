@@ -123,7 +123,7 @@ def query_handler(message):
         try:
             connection = mysql.connector.connect(
                 host="database-1.cyr0uu2os5i8.eu-west-2.rds.amazonaws.com",
-                user="root",
+                user="admin",
                 passwd="BREAKEdance1",
                 database="tguserscraper"
             )
